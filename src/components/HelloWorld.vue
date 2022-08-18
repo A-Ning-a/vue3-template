@@ -36,13 +36,15 @@ const count = ref(0)
         in your IDE for a better DX
     </p>
     <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
-    <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-        <div class="flex-shrink-0">
-            <img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo">
-        </div>
-        <div>
-            <div class="text-xl font-medium text-black">ChitChat</div>
-            <p class="text-gray-500">You have a new message!</p>
+    <div>
+        <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
+            <div class="flex-shrink-0">
+                <img class="h-12 w-12" src="../assets/vue.svg" alt="ChitChat Logo">
+            </div>
+            <div>
+                <div class="text-xl font-medium text-black">ChitChat</div>
+                <p class="text-gray-500">You have a new message!</p>
+            </div>
         </div>
     </div>
 </template>
